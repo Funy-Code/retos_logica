@@ -14,6 +14,7 @@ La **Universidad de las Decisiones Difíciles** tiene un sistema de evaluación 
 4. El proyecto final debe estar **entregado** (SI / NO)
 
 **Calificaciones finales:**
+
 - Si **reprueba** por cualquier razón: `"REPROBADO"` + motivo(s)
 - Si cumple todo:
   - Promedio final = (examen_final × 0.4) + (promedio_parciales × 0.4) + (asistencia_puntos × 0.2)
@@ -47,6 +48,7 @@ Dados los datos académicos de un estudiante, determina si aprobó o reprobó y 
 ## 🧪 Casos de Prueba
 
 ### Caso 1 — Aprobado con distinción
+
 ```
 Entrada:
 Parciales: 95, 90, 85  |  Final: 92  |  Asistencia: 98  |  Proyecto: SI
@@ -58,6 +60,7 @@ Promedio final: 91.2
 ```
 
 ### Caso 2 — Reprobado por múltiples razones
+
 ```
 Entrada:
 Parciales: 40, 50, 45  |  Final: 55  |  Asistencia: 70  |  Proyecto: NO
@@ -72,6 +75,7 @@ Motivos:
 ```
 
 ### Caso 3 — Solo reprobado por asistencia
+
 ```
 Entrada:
 Parciales: 80, 75, 85  |  Final: 70  |  Asistencia: 75  |  Proyecto: SI
@@ -83,6 +87,7 @@ Motivos:
 ```
 
 ### Caso 4 — Aprobado con condición
+
 ```
 Entrada:
 Parciales: 60, 65, 58  |  Final: 62  |  Asistencia: 82  |  Proyecto: SI
@@ -94,6 +99,7 @@ Promedio final: 62.2
 ```
 
 ### Caso 5 — Aprobado normal
+
 ```
 Entrada:
 Parciales: 75, 80, 70  |  Final: 78  |  Asistencia: 90  |  Proyecto: SI
@@ -113,6 +119,7 @@ Promedio final: 77.0
 > Guarda la imagen con el nombre `reto_05_diagrama.[png|pdf]` en esta carpeta.
 
 **Lista de verificación del diagrama:**
+
 - [ ] Lee todas las entradas
 - [ ] Calcula el promedio de parciales
 - [ ] Verifica las 4 condiciones de aprobación y registra los motivos de falla

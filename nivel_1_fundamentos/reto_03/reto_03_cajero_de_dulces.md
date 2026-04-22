@@ -2,7 +2,7 @@
 
 **Nivel:** ⭐ Fundamentos | **Dificultad:** 🟢 Fácil
 
----
+---z
 
 ## 🎯 Historia
 
@@ -28,6 +28,7 @@ Dado el precio de lo que compró el cliente y el monto que entregó, calcula el 
 ## 📤 Salidas
 
 Para cada denominación usada (de mayor a menor), mostrar:
+
 - Cuántos billetes/monedas de esa denominación se usan
 
 Si el cambio es 0, mostrar "No hay cambio".
@@ -37,6 +38,7 @@ Si el cambio es 0, mostrar "No hay cambio".
 ## 🧪 Casos de Prueba
 
 ### Caso 1
+
 ```
 Entrada:
 precio = 37
@@ -51,16 +53,18 @@ Cambio total: 463
 ```
 
 ### Caso 2
+
 ```
 Entrada:
 precio = 100
 pago = 100
 
 Salida esperada:
-No hay cambio.
+z
 ```
 
 ### Caso 3
+
 ```
 Entrada:
 precio = 7
@@ -73,6 +77,7 @@ Cambio total: 13
 ```
 
 ### Caso 4
+
 ```
 Entrada:
 precio = 1
@@ -92,6 +97,7 @@ Cambio total: 500
 > Guarda la imagen con el nombre `reto_03_diagrama.[png|pdf]` en esta carpeta.
 
 **Lista de verificación del diagrama:**
+
 - [ ] Tiene símbolo de INICIO y FIN
 - [ ] Lee precio y pago
 - [ ] Calcula el cambio (pago - precio)
@@ -120,6 +126,7 @@ Cambio total: 500
 <summary>Pista 1 — El algoritmo del cambio</summary>
 
 Este problema usa el **algoritmo codicioso (greedy)**:
+
 1. Siempre toma la denominación más grande posible
 2. Calcula cuántas piezas de esa denominación caben: `piezas = cambio ÷ denominación`
 3. Resta lo que cubre: `cambio = cambio - (piezas × denominación)`

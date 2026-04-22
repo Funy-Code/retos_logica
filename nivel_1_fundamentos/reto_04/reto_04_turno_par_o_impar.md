@@ -39,6 +39,7 @@ Al final: totales por ventanilla (A, B, Especial).
 ## 🧪 Casos de Prueba
 
 ### Caso 1
+
 ```
 Entrada:
 N = 6
@@ -59,6 +60,7 @@ Ventanilla Especial: 2 clientes
 ```
 
 ### Caso 2
+
 ```
 Entrada:
 N = 3
@@ -76,6 +78,7 @@ Ventanilla Especial: 3 clientes
 ```
 
 ### Caso 3
+
 ```
 Entrada:
 N = 4
@@ -102,6 +105,7 @@ Ventanilla Especial: 0 clientes
 > Guarda la imagen con el nombre `reto_04_diagrama.[png|pdf]` en esta carpeta.
 
 **Lista de verificación del diagrama:**
+
 - [ ] Tiene símbolo de INICIO y FIN
 - [ ] Lee N
 - [ ] Inicializa contadores (contA, contB, contEspecial) en 0

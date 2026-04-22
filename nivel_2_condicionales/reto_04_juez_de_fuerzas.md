@@ -41,6 +41,7 @@ Dados los puntajes de los dos competidores en las tres pruebas, determina quién
 ## 🧪 Casos de Prueba
 
 ### Caso 1 — Ganador claro
+
 ```
 Entrada: A=[80, 60, 75]  B=[70, 50, 90]
 
@@ -53,6 +54,7 @@ Puntos: A=2, B=1
 ```
 
 ### Caso 2 — Desempate por puntaje total
+
 ```
 Entrada: A=[100, 50, 70]  B=[90, 60, 80]
 
@@ -65,6 +67,7 @@ Puntos: A=1, B=2
 ```
 
 ### Caso 3 — Empate en puntos, desempate por total
+
 ```
 Entrada: A=[100, 50, 60]  B=[90, 80, 40]
 
@@ -77,6 +80,7 @@ Puntos: A=2, B=1
 ```
 
 ### Caso 4 — Campeón Absoluto
+
 ```
 Entrada: A=[95, 88, 91]  B=[80, 70, 85]
 
@@ -89,6 +93,7 @@ Puntos: A=3, B=0
 ```
 
 ### Caso 5 — Empate galáctico
+
 ```
 Entrada: A=[90, 80, 70]  B=[90, 80, 70]
 
@@ -110,6 +115,7 @@ Total: A=240, B=240
 > Guarda la imagen con el nombre `reto_04_diagrama.[png|pdf]` en esta carpeta.
 
 **Lista de verificación del diagrama:**
+
 - [ ] Lee los 6 puntajes
 - [ ] Para cada prueba: compara y asigna puntos (o no, si empatan)
 - [ ] Suma los puntajes totales de A y B
