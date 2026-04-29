@@ -6,22 +6,25 @@
 
 ## 🎯 Historia
 
-La **Secretaría Nacional de Hidrología** ha encargado un sistema de clasificación automática de ríos. Los ríos deben clasificarse según dos características: su **caudal** (litros por segundo) y su **longitud** (kilómetros). 
+La **Secretaría Nacional de Hidrología** ha encargado un sistema de clasificación automática de ríos. Los ríos deben clasificarse según dos características: su **caudal** (litros por segundo) y su **longitud** (kilómetros).
 
 La clasificación es la siguiente:
 
 **Por caudal:**
+
 - Caudal < 10 L/s → Arroyo
 - 10 ≤ Caudal < 100 L/s → Río pequeño
 - 100 ≤ Caudal < 1000 L/s → Río mediano
 - Caudal ≥ 1000 L/s → Río grande
 
 **Por longitud:**
+
 - Longitud < 50 km → Corto
 - 50 ≤ Longitud < 500 km → Mediano
 - Longitud ≥ 500 km → Largo
 
 **Clasificación de importancia ecológica** (combinación de ambos):
+
 - Río grande + Largo → **Ecosistema Crítico** 🔴
 - Río grande + Mediano → **Alta importancia** 🟠
 - Río mediano + Largo → **Alta importancia** 🟠
@@ -33,6 +36,7 @@ La clasificación es la siguiente:
 ## 📋 El Problema
 
 Dados el caudal y la longitud de un río, determina:
+
 1. Su **categoría de caudal**
 2. Su **categoría de longitud**
 3. Su **importancia ecológica**
@@ -55,6 +59,7 @@ Dados el caudal y la longitud de un río, determina:
 ## 🧪 Casos de Prueba
 
 ### Caso 1
+
 ```
 Entrada: caudal=5000, longitud=800
 
@@ -65,6 +70,7 @@ Importancia ecológica: 🔴 Ecosistema Crítico
 ```
 
 ### Caso 2
+
 ```
 Entrada: caudal=500, longitud=700
 
@@ -75,6 +81,7 @@ Importancia ecológica: 🟠 Alta importancia
 ```
 
 ### Caso 3
+
 ```
 Entrada: caudal=3, longitud=5
 
@@ -85,6 +92,7 @@ Importancia ecológica: 🟢 Importancia baja
 ```
 
 ### Caso 4
+
 ```
 Entrada: caudal=1500, longitud=200
 
@@ -95,6 +103,7 @@ Importancia ecológica: 🟠 Alta importancia
 ```
 
 ### Caso 5
+
 ```
 Entrada: caudal=50, longitud=600
 
@@ -105,6 +114,7 @@ Importancia ecológica: 🟢 Importancia baja
 ```
 
 ### Caso 6
+
 ```
 Entrada: caudal=200, longitud=30
 
@@ -123,6 +133,7 @@ Importancia ecológica: 🟡 Importancia media
 > Guarda la imagen con el nombre `reto_03_diagrama.[png|pdf]` en esta carpeta.
 
 **Lista de verificación del diagrama:**
+
 - [ ] Lee caudal y longitud
 - [ ] Tiene una rama de decisión para clasificar el caudal (4 categorías)
 - [ ] Tiene una rama de decisión para clasificar la longitud (3 categorías)

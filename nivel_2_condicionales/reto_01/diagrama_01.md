@@ -1,4 +1,9 @@
 ```mermaid
+---
+config:
+  theme: redux-dark
+  layout: dagre
+---
 flowchart TB
 A(["Inicio"]) --> B["rCorrectas = [c1, c2, c3] <br>preguntas = [p1, p2, p3] <br> errores = 0"]
 B --> C["errores = sum(preguntas[i] != rCorrectas[i])"]
@@ -23,5 +28,3 @@ L --> M
     K@{ shape: rect}
     L@{ shape: rect}
 ```
-
-ñ{1
